@@ -271,6 +271,7 @@ extension IMGLYMainEditorViewController: UICollectionViewDataSource {
                 buttonCell.imageView.image = actionButton.image
             }
             buttonCell.imageView.tintColor = .white
+            buttonCell.textLabel.textColor = .white
             buttonCell.textLabel.text = actionButton.title
         }
         
