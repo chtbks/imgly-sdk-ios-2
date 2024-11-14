@@ -55,11 +55,11 @@ open class IMGLYMainEditorViewController: IMGLYEditorViewController {
                 image: UIImage(named: "icon_option_filters", in: bundle, compatibleWith: nil),
                 handler: { [unowned self] in self.subEditorButtonPressed(.filter) }))
         
-        handlers.append(
-            IMGLYActionButton(
-                title: NSLocalizedString("main-editor.button.stickers", tableName: nil, bundle: bundle, value: "", comment: ""),
-                image: UIImage(named: "icon_option_sticker", in: bundle, compatibleWith: nil),
-                handler: { [unowned self] in self.subEditorButtonPressed(.stickers) }))
+//        handlers.append(
+//            IMGLYActionButton(
+//                title: NSLocalizedString("main-editor.button.stickers", tableName: nil, bundle: bundle, value: "", comment: ""),
+//                image: UIImage(named: "icon_option_sticker", in: bundle, compatibleWith: nil),
+//                handler: { [unowned self] in self.subEditorButtonPressed(.stickers) }))
         
         handlers.append(
             IMGLYActionButton(
